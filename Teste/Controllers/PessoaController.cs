@@ -25,5 +25,9 @@ namespace Teste.Controllers
             lsPessoas.Add(c);
             return RedirectToAction("index");
         }
+        public IActionResult excluir()
+        {
+            return View();
+        }
     }
 }
